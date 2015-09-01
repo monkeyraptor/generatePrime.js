@@ -23,4 +23,6 @@ Go to <a href="http://portraptor.johanpaul.net/2014/05/prime-number-generator-by
 The methods there are the expansions of this main snippet idea.
 
 ## This snippet is
-included in <a href="https://github.com/monkeyraptor/math_operation" target="_blank" title="new window">Math Operation</a> repository. With subtle difference.
+included in <a href="https://github.com/monkeyraptor/math_operation" target="_blank" title="new window">Math Operations</a> repository.
+
+This is a bit different than the one in `Math Operations`.
