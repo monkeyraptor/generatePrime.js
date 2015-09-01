@@ -2,7 +2,7 @@
 JavaScript snippet to generate prime numbers
 
 ## How to use
-```
+```javascript
 generatePrime(starting_number, how_many)
 ```
 The `starting_number` input must be larger than 1 and the `how_many` has to be larger than 0. Both must be positive integers.
@@ -11,7 +11,7 @@ The output is an `array`.
 
 ## Example
 
-```
+```javascript
 generatePrime(3, 2); // will generate output: [3, 5]
 generatePrime(15, 1); // will generate output: [17]
 generatePrime(-3, 2); // will generate error
