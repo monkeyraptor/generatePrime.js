@@ -3,9 +3,9 @@ JavaScript snippet to generate prime numbers
 
 ## How to use
 ```
-generatePrime(limit, how_many)
+generatePrime(starting_number, how_many)
 ```
-The `limit` input must be larger than 1 and the `how_many` has to be large than 0. Both must be positive integers.
+The `starting_number` input must be larger than 1 and the `how_many` has to be large than 0. Both must be positive integers.
 
 The output is an `array`.
 
