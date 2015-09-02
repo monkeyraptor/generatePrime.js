@@ -2,7 +2,7 @@ function generatePrime(a, b) {
     "use strict";
     var e = [],
         pC = function (g) {
-            var limit = Math.sqrt(g),
+            var limit = Math.floor(Math.sqrt(g)),
                 mod = 2,
                 output = 1;
             while (mod <= limit) {
