@@ -1,6 +1,12 @@
 # generatePrime.js
 JavaScript snippet to generate prime numbers
 
+## Update
+
+The snippet here and the one included in the demo are updated.
+
+The update is that the starting number *isn't included in the iteration*.
+
 ## How to use
 ```javascript
 generatePrime(starting_number, how_many)
@@ -12,7 +18,7 @@ The output is an `array` for valid or invalid input(s).
 ## Example
 
 ```javascript
-generatePrime(3, 2); // will generate output: [3, 5]
+generatePrime(3, 2); // will generate output: [5, 7]
 generatePrime(15, 1); // will generate output: [17]
 generatePrime(-3, 2); // will generate output: ["error info"]
 ```
