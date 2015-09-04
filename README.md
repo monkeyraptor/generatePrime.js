@@ -32,3 +32,5 @@ The methods there are the expansions of this main snippet idea.
 included in <a href="https://github.com/monkeyraptor/math_operation" target="_blank" title="new window">Math Operations</a> repository.
 
 This is a bit different than the one in `Math Operations`.
+
+The one in `Math Operations` will *return the starting number if it's a Prime number*.
