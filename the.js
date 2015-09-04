@@ -16,7 +16,7 @@ function generatePrime(a, b) { //a is "starting number", b is "how many".
         };
     a = Number(a);
     b = Number(b);
-    if (a >= 2 && a % Math.floor(a) === 0 && b > 0) {
+    if ((a > 1 && b > 0) && (a % 1 === 0) && (b % 1 === 0)) {
         a += 1; // so that the starting number isn't included.
         while (b > 0) {
             if (pC(a)) {
@@ -26,7 +26,7 @@ function generatePrime(a, b) { //a is "starting number", b is "how many".
             a += 1;
         }
     } else {
-        e.push("Error: a >= 2 && b > 0 && (a & b) positive integers.");
+        e.push("Error: a > 1 && b > 0 && (a & b) positive integers.");
     }
     return e;
 }
