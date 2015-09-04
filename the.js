@@ -1,4 +1,4 @@
-function generatePrime(a, b) {
+function generatePrime(a, b) { //a is "starting number", b is "how many".
     "use strict";
     var e = [],
         pC = function (g) {
@@ -17,6 +17,7 @@ function generatePrime(a, b) {
     a = Number(a);
     b = Number(b);
     if (a >= 2 && a % Math.floor(a) === 0 && b > 0) {
+        a += 1; // so that the starting number isn't included.
         while (b > 0) {
             if (pC(a)) {
                 e.push(a);
