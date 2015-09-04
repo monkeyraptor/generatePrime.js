@@ -1,5 +1,5 @@
 # generatePrime.js
-JavaScript snippet to generate prime numbers
+JavaScript snippet to generate Prime numbers.
 
 ## Update
 
